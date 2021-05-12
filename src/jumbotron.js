@@ -2,10 +2,11 @@ import {useState} from 'react'
 
 const JumboTron = () => {
 
+  //HOOK
 const [value, setsNewValue] = useState("SHOP NOW")
 
 const changeValue = () => {
-  setsNewValue("YOU DIDN'T SAT THE MAGIC WORD")
+  setsNewValue("YOU DIDN'T SAY THE MAGIC WORD")
 }
 
     return ( 
